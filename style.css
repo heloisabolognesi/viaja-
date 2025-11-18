@@ -1,16 +1,17 @@
 :root {
   /* Cores principais */
-  --cor-azul-escuro: #1F3C88;
-  --cor-azul-governo: #0053A6;
-  --cor-verde-brasil: #009739;
-  --cor-amarelo-brasil: #FFCB05;
+  --cor-azul-escuro: #0057FF;
+  --cor-azul-governo: #0057FF;
+  --cor-verde-brasil: #00B140;
+  --cor-amarelo-brasil: #FFD500;
+  --cor-vermelho-brasil: #FF0000;
   --cor-branco: #FFFFFF;
   --cor-cinza-claro: #F2F2F2;
   
   /* Cores derivadas */
-  --cor-azul-hover: #163070;
-  --cor-verde-hover: #007a2e;
-  --cor-amarelo-hover: #E6B800;
+  --cor-azul-hover: #0046CC;
+  --cor-verde-hover: #009133;
+  --cor-amarelo-hover: #E6C000;
   --cor-texto-escuro: #222222;
   --cor-texto-medio: #666666;
   --cor-borda: #DDDDDD;
@@ -331,7 +332,7 @@ p {
 .hero-btn {
     display: inline-block;
     margin-top: 40px;
-    background: #feca2f;
+    background: var(--cor-amarelo-brasil);
     color: #000;
     padding: 12px 28px;
     border-radius: 30px;
@@ -342,7 +343,8 @@ p {
 }
 
 .hero-btn:hover {
-    background: #163070;
+    background: var(--cor-azul-governo);
+    color: var(--cor-branco);
 }
 
 /* Hero estático para páginas internas */
